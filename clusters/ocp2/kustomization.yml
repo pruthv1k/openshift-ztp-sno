@@ -6,7 +6,7 @@ resources:
   - ns.yml
   - secrets.yml
   - clusterinstance.yml
-  - extra-manifests/
+  - extra-manifests/99-worker-mytest-mcp.yml
 
 generatorOptions:
   disableNameSuffixHash: true
