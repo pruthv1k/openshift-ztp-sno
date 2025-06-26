@@ -1,0 +1,19 @@
+apiVersion: machineconfiguration.openshift.io/v1
+kind: MachineConfig
+metadata:
+  name: 99-worker-mytest-mcp
+  labels:
+    machineconfiguration.openshift.io/role: master
+  annotations:
+    ran.openshift.io/ztp-deploy-wave: "20"
+spec:
+  config:
+    ignition:
+      version: 3.2.0
+    storage:
+      files:
+        - path: /etc/mytest-ztp.txt
+          mode: 0644
+          overwrite: true
+          contents:
+            source: data:text/plain;charset=utf-8;base64,VGhpcyBpcyBhIFpUUCBUZXN0IGZpbGUgOikK
