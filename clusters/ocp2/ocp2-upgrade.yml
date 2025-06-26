@@ -27,7 +27,7 @@ policies:
       policyAnnotations:
         ran.openshift.io/ztp-deploy-wave: "100"
       manifests:
-        - path: ClusterVersion.yml 
+        - path: day2/ClusterVersion.yml 
           patches:
             - metadata:
                 name: version
@@ -44,7 +44,7 @@ policies:
       policyAnnotations:
         ran.openshift.io/ztp-deploy-wave: "1"
       manifests:
-        - path: ImageSignature.yml 
+        - path: day2/ImageSignature.yml 
           patches:
             - metadata:
                 name: release-image-signature

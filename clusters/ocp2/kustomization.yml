@@ -6,7 +6,9 @@ resources:
   - ns.yml
   - secrets.yml
   - clusterinstance.yml
-  - day2/
+
+generators:
+  - ocp2-upgrade.yml
 
 generatorOptions:
   disableNameSuffixHash: true
