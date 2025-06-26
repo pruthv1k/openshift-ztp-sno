@@ -6,6 +6,7 @@ resources:
   - ns.yml
   - secrets.yml
   - clusterinstance.yml
+  - extra-manifests/
 
 generatorOptions:
   disableNameSuffixHash: true
