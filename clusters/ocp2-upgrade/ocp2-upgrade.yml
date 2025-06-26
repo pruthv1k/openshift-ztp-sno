@@ -9,9 +9,10 @@ policyDefaults:
     placement:
         labelSelector:
             matchExpressions:
-                - key: name
-                  operator: In
-                  value: ["ocp2"]
+              - key: name
+                operator: In
+                values:
+                  - ocp2
     remediationAction: inform
     severity: low
     namespaceSelector:
