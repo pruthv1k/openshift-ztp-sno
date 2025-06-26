@@ -6,7 +6,6 @@ resources:
   - ns.yml
   - secrets.yml
   - clusterinstance.yml
-  - day2/99-worker-mytest-mcp.yml
 
 generatorOptions:
   disableNameSuffixHash: true
