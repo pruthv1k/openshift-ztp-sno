@@ -6,6 +6,7 @@ resources:
   - ns.yml
   - secrets.yml
   - clusterinstance.yml
+  - day2/
 
 generatorOptions:
   disableNameSuffixHash: true
