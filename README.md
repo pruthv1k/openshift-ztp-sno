@@ -78,3 +78,7 @@ oc get clusterdeployment -A
 
 # Check for preprovisioning image status
 oc get ppimg -A
+```
+
+## References
+https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/edge_computing/index
