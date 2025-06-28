@@ -1,4 +1,4 @@
-# OpenShift ZTP SNO Deployment
+# Red Hat OpenShift Container Platform ZTP SNO Deployment using Advanced Cluster Management
 
 This repository contains manifests and automation for deploying **Single Node OpenShift (SNO)** clusters using **Zero Touch Provisioning (ZTP)** and **GitOps workflows** via **ArgoCD** and **Advanced Cluster Management (ACM)**. It supports both initial SNO cluster deployments and Day-2 operations like adding additional worker nodes.
 
