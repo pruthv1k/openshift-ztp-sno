@@ -3,6 +3,8 @@ kind: ClusterInstance
 metadata:
   name: ocp2
   namespace: ocp2
+  finalizers:
+    - clusterinstance.redhat.io/protect
 spec:
   cpuPartitioningMode: None
   clusterName: ocp2
